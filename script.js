@@ -4,14 +4,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // Array de personagens
 const personagens = [
-    { name: "Garra", image: "imagens/gaara.jpg" },
-    { name: "Hinata", image: "himagens/hinata.jpg" },
-    { name: "Itachi", image: "imagens/itachi.jpg" },
-    { name: "Sasuke", image: "imagens/sasuke.jpg" },
-    { name: "Naruto", image: "imagens/naruto.jpg" },
-    { name: "Jiraiya", image: "imagens/jiraiya.jpg" },
-    { name: "Sakura", image: "imagens/sakura.jpg" },
-    { name: "Kakashi", image: "imagens/kakashi.jpg" },
+    { name: "Garra", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnnNmHIeqbZBDDukjX7PX4I-305JqcAOagTA&s" },
+    { name: "Hinata", image: "https://criticalhits.com.br/wp-content/uploads/2021/11/Hinata.jpg" },
+    { name: "Itachi", image: "https://i.pinimg.com/736x/26/1e/9e/261e9e461b7e09537fed22e4d04cc19c.jpg" },
+    { name: "Sasuke", image: "https://tm.ibxk.com.br/2021/11/10/10131909652318.jpg?ims=1200x675" },
+    { name: "Naruto", image: "https://s2-techtudo.glbimg.com/88a4QNHTzEa2Pwm0NmiFtvja-5I=/0x0:1200x768/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2022/6/Z/BtyF8UT5aeLFwmccA9CQ/fotonaruto2.jpg" },
+    { name: "Jiraiya", image: "https://criticalhits.com.br/wp-content/uploads/2023/11/Naruto-Jiraiya-tributo-Critical-Hits.jpg" },
+    { name: "Sakura", image: "https://static.wikia.nocookie.net/naruto/images/c/cf/Sakura_%28Naruto_Cl%C3%A1ssico%29.png/revision/latest/scale-to-width/360?cb=20180211141243&path-prefix=pt-br" },
+    { name: "Kakashi", image: "https://criticalhits.com.br/wp-content/uploads/2022/04/kakashi-Sharingan-910x512.jpg" },
 ];
 
 // Função para gerar personagem
