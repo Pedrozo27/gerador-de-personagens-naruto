@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Personagens de Naruto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de Personagens de Naruto</h1>
+        <input type="text" id="nomeTitular" placeholder="Nome do Titular" required>
+        <input type="text" id="numeroCartao" placeholder="Número do Cartão" maxlength="16" pattern="\d{16}" title="Digite apenas números (16 dígitos)">
+        <input type="text" id="codigoSeguranca" placeholder="Código de Segurança (CVV)" maxlength="3" pattern="\d{3}" title="Digite apenas números (3 dígitos)">
+        <button id="gerarButton">Gerar Personagem</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
